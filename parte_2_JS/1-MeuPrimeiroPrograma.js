@@ -1,5 +1,5 @@
-console.log("meu primeiro programa")
+console.log("meu primeiro programa");
 
-const idade = 24
+const idade = 24;
 
-console.log(idade)
+console.log(idade);

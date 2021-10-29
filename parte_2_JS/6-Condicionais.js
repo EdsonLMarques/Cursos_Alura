@@ -1,30 +1,24 @@
-console.log(`trabalhando com Condicionais`)
+console.log(`trabalhando com Condicionais`);
 
-const destinos = new Array(
-    `Salvador`,
-    `São Paulo`,
-    `Rio de Janeiro`,
-)
-const idadeComprador = 21
-const estaAcompanhada = false
-const passagemComprada = true
+const destinos = new Array(`Salvador`, `São Paulo`, `Rio de Janeiro`);
+const idadeComprador = 21;
+const estaAcompanhada = false;
+const passagemComprada = true;
 
-console.log(`Destinos possiveis:`)
-console.log(destinos)
+console.log(`Destinos possiveis:`);
+console.log(destinos);
 
-if ((idadeComprador >= 18) || (estaAcompanhada)) {
-    destinos.splice(1, 1)
-    console.log(`Pode Comprar`)
-}
-else {
-    console.log(`Não pode comprar`)
+if (idadeComprador >= 18 || estaAcompanhada) {
+  destinos.splice(1, 1);
+  console.log(`Pode Comprar`);
+} else {
+  console.log(`Não pode comprar`);
 }
 
-console.log("Embarque: \n\n")
+console.log("Embarque: \n\n");
 if (idadeComprador >= 18 && passagemComprada == true) {
-    console.log("Boa Viagem")
+  console.log("Boa Viagem");
+} else {
+  console.log("Voce não pode embarcar");
 }
-else {
-    console.log("Voce não pode embarcar")
-}
-console.log(destinos)
+console.log(destinos);
